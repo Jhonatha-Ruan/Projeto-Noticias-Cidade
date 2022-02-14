@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #fff url(/img/fundo.png) repeat-x;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.topo {
+    height: 150px;
+    padding-top: 25px;
+    background: url(./img/detalhe-topo.png) no-repeat right top;
+   
+    
+}
+
+.logo {
+    width: 152px;
+    height: 66px;
+    background: url(./img/logo.png) no-repeat center;
+    text-indent: -3000px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#nav {
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    font-size: 1.0em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: white;
+    background: url(./img/divisor.png) no-repeat left center;
+}
+
+.primeiro{
+    background: none !important; 
+}
+
+#nav a:hover {
+    color: #69001d;
+}
+
+body.home #nav a#home,
+body.brasil #nav a#brasil,
+body.internacional #nav a#internacional,
+body.economia #nav a#economia,
+body.saude #nav a#saude,
+body.ciencias #nav a#ciencias,
+body.fotos #nav a#fotos {
+    color: #fff;
+    background-color: #de003e !important;
+    
+}
+
+#conteudo {
+    background-color: #F5F5F5;
+    margin-top: 60px;
+}
+
+#conteudo a {
+    color: #b10333;
+}
+
+#lateral {
+    width: 250px;
+    float: left;
+    margin: 0 0 20px -1200px;
+}
+
+#tres-colunas #primario {
+    width: 425px;
+    float: left;
+    margin: 0 0 20px 330px;
+}
+
+/* #duas-colunas #primario {
+    width: 750px;
+    margin-left: 400px;
+}
+
+#uma-colunas #primario {
+    width: 750px;
+    margin: 0 0 25px 0;
+} */
+
+#secundario {
+    width: 425px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+.caixa {
+    background: #f3f3f3 url(/img/fundo-caixa.png);
+    margin: 10px 0;
+    padding: 5px;   
+}
+
+h2 {
+    font-size: 1em;
+    background-color: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+.caixa-conteudo {
+    background-color: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/* Lateral */
+#lateral ul a {
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover {
+    background: #f9f9f9 url(/img/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+input {
+    font-size: 0.9em;
+    background-color: #fff;
+    padding: 5px;
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 8px;
+    outline: none;
+}
+
+input.submit {
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+input.submit:hover {
+    background-color: #f83a70;
+}
+
+
+img.imagem-principal {
+    border: 3px solid #dfdfdf;
+    width: 98%;
+    margin-top: 10px;
+}
+
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3 {
+    background: #b10333;
+    color: #fff;
+    padding: 3px;
+}
+
+.entrevista h3 {
+    background: #de003e;
+    padding: 3px;
+    color: white;
+}
+
+
+/* listas de notícias */
+#lista-noticias li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 62px;
+}
+
+#lista-noticias li a img{
+    float: left;
+    margin: 5px;
+}
+
+#lista-noticias li a {
+    text-decoration: none;
+    color: #000;
+}
+
+#lista-noticias li a h3{
+    font-size: 0.8em;
+    padding: 0;
+    color: #3e7ab9;
+}
+
+#lista-noticias li a p {
+    font-size: 0.7em;
+}
+
+#lista-noticias li:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
+
+
+
+
+
+
+#container-rodape {
+    background-color: #294c71;
+    padding: 20px;
+
+}
+
+#rodape {
+    width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+
