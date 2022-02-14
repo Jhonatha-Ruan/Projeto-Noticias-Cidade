@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: #fff url(/img/fundo.png) repeat-x;
+    background: #fff url(./img/fundo.png) repeat-x;
 }
 
 .container {
@@ -115,7 +115,7 @@ body.fotos #nav a#fotos {
 }
 
 .caixa {
-    background: #f3f3f3 url(/img/fundo-caixa.png);
+    background: #f3f3f3 url(./img/fundo-caixa.png);
     margin: 10px 0;
     padding: 5px;   
 }
@@ -145,7 +145,7 @@ h2 {
 }
 
 #lateral ul a:hover {
-    background: #f9f9f9 url(/img/marcador.png) no-repeat left center;
+    background: #f9f9f9 url(./img/marcador.png) no-repeat left center;
     padding-left: 20px;
     color: #a1a1a1;
 }
@@ -239,15 +239,9 @@ h3 {
     cursor: pointer;
 }
 
-
-
-
-
-
 #container-rodape {
     background-color: #294c71;
     padding: 20px;
-
 }
 
 #rodape {
@@ -255,5 +249,3 @@ h3 {
     margin: 0 auto;
     color: #fff;
 }
-
-
